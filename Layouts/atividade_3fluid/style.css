@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.container .wrapper{
+    background-color: blueviolet;
+    display : flex;
+    height:100%
+}
+
+.container .column-one{
+
+    width:25%;
+}
+
+.container .column-two{
+    width:35%;
+    background-color: rgb(255, 217, 0);
+}
+
+.container .column-tree{
+    background-color: rgb(0, 245, 12);
+    width: 55%;
+}
+img{
+    width: 100%;
+    height: 1%
+}
