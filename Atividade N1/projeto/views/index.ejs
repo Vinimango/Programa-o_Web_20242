@@ -1,12 +1,24 @@
 <%- include ./partials/header %>
-    <h1>Inicial</h1>
-    <p>Bem vindo!</p>
- 
+  <h1>Inicial</h1>
+  <p>Bem vindo!</p>
 
-<body>
-  <%- include ./partials/card %>
-  <%- include ./partials/footer %>
 
-</body>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <%- include ./partials/card %>
+        </div>
+        <div class="col-md-4">
+          <%- include ./partials/card %>
+        </div>
+        <div class="col-md-4">
+          <%- include ./partials/card %>
+        </div>
+      </div>
+    </div>
 
-</html>
+    <%- include ./partials/footer %>
+  </body>
+
+  </html>
